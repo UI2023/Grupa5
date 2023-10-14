@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="442C5846-98F7-0C04-9896-2D28CA91A2E1" containerWithKeyObject="24F44F2D-5078-6DBA-F1E2-B0C9E3D8C1EB" localFKIndex="60B05CC3-F0D5-46F5-C241-2706B91FE2E0" name="formula_idv1">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-06 13:18:29 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<referredTableLongName>Formula</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0C2CA661-C100-BDE9-3234-16B7C2C26C28</referredTableID>
+<keyObject>6B51A7F2-565B-8E19-04F0-AF7E710C5B2B</keyObject>
+<referredKeyID>6B51A7F2-565B-8E19-04F0-AF7E710C5B2B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>forumla_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

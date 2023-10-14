@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Formula1" id="9CB89EEE-1B42-2B92-66DB-DC550FD320F6" version="3.5">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-06 12:30:49 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9CB89EEE-1B42-2B92-66DB-DC550FD320F6</designId>
+</OSDM_Design>

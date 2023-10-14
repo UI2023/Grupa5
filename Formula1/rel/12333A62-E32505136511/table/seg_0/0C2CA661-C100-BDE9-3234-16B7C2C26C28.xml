@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0C2CA661-C100-BDE9-3234-16B7C2C26C28" name="Formula">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-06 12:31:00 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="forumla_id" id="325454A8-A1A1-94BA-3033-C391D3365B45">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-06 12:34:21 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="E534D419-8F8F-73A1-38B7-C4C6DF81E9AF">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-06 12:34:48 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6B51A7F2-565B-8E19-04F0-AF7E710C5B2B" name="Formula_PK">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-06 12:34:21 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="325454A8-A1A1-94BA-3033-C391D3365B45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

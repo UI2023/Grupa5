@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB7BD9FC-A787-16DD-4192-B269934F6C30" name="Formula sponsors">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-06 12:58:05 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="formula_sponsor_id" id="D6DE8B66-DB5E-2F07-DF95-3711AD332557">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-06 13:01:38 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sponsors_sponsor_id" id="AB5E5021-F31B-2663-AFF3-4E7DCEED55CC">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-06 13:17:40 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="923A7EC0-D56D-9843-8F0F-B9B88FE90973" referredColumn="D2BBE4CE-0B89-A7F2-A349-348D56CC2C0B"/>
+</associations>
+</Column>
+<Column name="Formula_forumla_id" id="DDBDA7BE-E889-DF60-7560-C6A5BA8D6CEB">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-06 13:18:05 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77C101B6-D668-2E64-B0A7-40EB4FEB389A" referredColumn="325454A8-A1A1-94BA-3033-C391D3365B45"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EA00DACF-AD4E-782B-3FF6-10CE9FE9DFEE" name="Formula sponsors_PK">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-06 13:01:38 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6DE8B66-DB5E-2F07-DF95-3711AD332557"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="27D600F4-CA37-B221-EF1F-D38957A7693F" name="sponsor_idv1">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-06 13:17:40 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB5E5021-F31B-2663-AFF3-4E7DCEED55CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE2F112D-C9AB-ADD3-D460-30B101FA5559" name="formula_id">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-06 13:18:05 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDBDA7BE-E889-DF60-7560-C6A5BA8D6CEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

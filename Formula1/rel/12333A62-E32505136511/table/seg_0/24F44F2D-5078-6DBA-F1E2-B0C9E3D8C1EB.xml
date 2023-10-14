@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="24F44F2D-5078-6DBA-F1E2-B0C9E3D8C1EB" name="Teams">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-06 13:08:13 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="team_id" id="BB01036E-79BA-621B-CAD1-D8B3B8B29674">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-06 13:08:29 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="team_name" id="9C29F36D-3B3C-EF8A-8F30-D79C84BC825F">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-06 13:08:37 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Drivers_driver_id" id="8EB93108-2914-B3D8-AF6D-D3F3C69B265A">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-06 13:13:20 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F11C48F-A717-016A-F927-C02C6A590A7C" referredColumn="48ABC868-1209-1185-61D1-4D98E1AFA708"/>
+</associations>
+</Column>
+<Column name="Formula_forumla_id" id="A1311148-FD68-794C-5B10-A9B946ACA81B">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-06 13:18:29 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="442C5846-98F7-0C04-9896-2D28CA91A2E1" referredColumn="325454A8-A1A1-94BA-3033-C391D3365B45"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0398698D-CE1D-4C26-C9F1-0CBC8ACD8F66" name="Teams_PK">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-06 13:08:29 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB01036E-79BA-621B-CAD1-D8B3B8B29674"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="659C72B1-F121-0CB4-9451-240F8861010C" name="driver_id">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-06 13:13:20 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EB93108-2914-B3D8-AF6D-D3F3C69B265A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60B05CC3-F0D5-46F5-C241-2706B91FE2E0" name="formula_idv1">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-06 13:18:29 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1311148-FD68-794C-5B10-A9B946ACA81B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
