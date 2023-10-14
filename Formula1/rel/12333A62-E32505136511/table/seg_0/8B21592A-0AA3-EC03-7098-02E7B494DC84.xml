@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Drivers_driver_id" id="4795F1E1-B129-8120-96B4-E937FFABB110">
-<createdBy>Stefan</createdBy>
-<createdTime>2023-10-06 13:14:03 UTC</createdTime>
+<Column name="Teams_team_id" id="D5444F8F-7644-EFA5-3EF7-F02CAF859867">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-14 13:36:23 UTC</createdTime>
 <ownerDesignName>Formula1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,7 +29,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="6C5BD1F1-016E-8CCB-4E69-A6AEB4B0CB4A" referredColumn="48ABC868-1209-1185-61D1-4D98E1AFA708"/>
+<colAssociation fkAssociation="5CBA4856-8616-B673-F5CF-D275A2C88063" referredColumn="BB01036E-79BA-621B-CAD1-D8B3B8B29674"/>
 </associations>
 </Column>
 </columns>
@@ -45,14 +45,14 @@
 <colUsage columnID="42549CBB-0743-8AB3-1733-3EF491A37F3B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="56B65C38-83BD-31BC-1708-9342AEEA3B8E" name="vozac_id">
-<createdBy>Stefan</createdBy>
-<createdTime>2023-10-06 13:14:03 UTC</createdTime>
+<ind_PK_UK id="699535DD-D39D-E2C9-8818-20994B9A53DA" name="Cars_Teams_FK">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-14 13:36:23 UTC</createdTime>
 <ownerDesignName>Formula1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="4795F1E1-B129-8120-96B4-E937FFABB110"/>
+<colUsage columnID="D5444F8F-7644-EFA5-3EF7-F02CAF859867"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

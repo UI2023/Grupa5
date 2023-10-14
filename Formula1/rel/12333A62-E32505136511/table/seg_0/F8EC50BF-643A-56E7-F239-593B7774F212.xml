@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F8EC50BF-643A-56E7-F239-593B7774F212" name="Seasons">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-14 13:21:47 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="season_id" id="0FE99138-C889-0774-1F4A-F834F0C3DFE1">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-14 13:23:01 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="05069815-8DFC-0058-EA23-A3DAE33F1B62" name="Season_PK">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-14 13:23:01 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FE99138-C889-0774-1F4A-F834F0C3DFE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

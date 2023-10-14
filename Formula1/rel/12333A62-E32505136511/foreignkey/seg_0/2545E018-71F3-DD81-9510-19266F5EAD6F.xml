@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2545E018-71F3-DD81-9510-19266F5EAD6F" containerWithKeyObject="7AEFF6C1-F3AB-DF68-515A-2F21696168C8" localFKIndex="69A5EF29-25AC-BA02-8A4E-5C0A16B057AD" name="Team budget_Season_FK">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-14 13:31:15 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<referredTableLongName>Seasons</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F8EC50BF-643A-56E7-F239-593B7774F212</referredTableID>
+<keyObject>05069815-8DFC-0058-EA23-A3DAE33F1B62</keyObject>
+<referredKeyID>05069815-8DFC-0058-EA23-A3DAE33F1B62</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>season_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

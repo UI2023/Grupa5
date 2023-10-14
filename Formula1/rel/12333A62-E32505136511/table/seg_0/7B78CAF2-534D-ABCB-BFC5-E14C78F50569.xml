@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7B78CAF2-534D-ABCB-BFC5-E14C78F50569" name="Racetracks">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-14 13:41:08 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="racetrack_id" id="B1574B27-5295-375B-B2B4-193D9932E290">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-14 13:41:29 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="EB3BC3EC-FB5D-598A-21E9-B9E00B0088AF">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-14 13:41:45 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lenght" id="E8A44FA6-0714-626E-4060-DF5D729E9AAA">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-14 13:42:24 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="number_of_corners" id="5A6E68B3-D64F-86EF-47ED-9350860796BE">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-14 13:42:41 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4CA1C4EE-314B-D40D-0858-51BD65C55B49" name="Racetracks_PK">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-14 13:53:14 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1574B27-5295-375B-B2B4-193D9932E290"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

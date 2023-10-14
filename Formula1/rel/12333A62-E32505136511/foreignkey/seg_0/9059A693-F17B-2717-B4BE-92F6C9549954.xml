@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9059A693-F17B-2717-B4BE-92F6C9549954" containerWithKeyObject="7AEFF6C1-F3AB-DF68-515A-2F21696168C8" localFKIndex="54AD9CD4-FB7F-1F6D-0D96-951D7CE34F36" name="Team budget_Budget_FK">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-14 13:31:30 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<referredTableLongName>Budgets</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>65721821-39E1-548B-AFB8-555D44328234</referredTableID>
+<keyObject>E86C0CC8-B113-F5A2-30F6-8BAE7B5568E6</keyObject>
+<referredKeyID>E86C0CC8-B113-F5A2-30F6-8BAE7B5568E6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>budget_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

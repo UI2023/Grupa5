@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="65721821-39E1-548B-AFB8-555D44328234" name="Budgets">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-14 13:24:31 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="budget_id" id="C9708C36-5DB3-52C2-D56B-5AEAEF76D7C4">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-14 13:24:56 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="budget_cap" id="2E59016A-56AE-9577-AFBA-7E92E70B6BEA">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-14 13:25:19 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E86C0CC8-B113-F5A2-30F6-8BAE7B5568E6" name="Budget_PK">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-14 13:24:56 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9708C36-5DB3-52C2-D56B-5AEAEF76D7C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

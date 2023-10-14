@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E073F781-317E-CB1E-3EDF-280651BE6CC3" containerWithKeyObject="CF877976-6026-1DA8-DA88-9E804A5D0132" localFKIndex="B6E29F1B-9C20-3828-4ED6-6C1FE9C6424C" name="Race Calendars_Seasons_FK">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-14 13:51:09 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<referredTableLongName>Seasons</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F8EC50BF-643A-56E7-F239-593B7774F212</referredTableID>
+<keyObject>05069815-8DFC-0058-EA23-A3DAE33F1B62</keyObject>
+<referredKeyID>05069815-8DFC-0058-EA23-A3DAE33F1B62</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>season_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

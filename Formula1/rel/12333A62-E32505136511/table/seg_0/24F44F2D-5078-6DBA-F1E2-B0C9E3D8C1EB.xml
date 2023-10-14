@@ -57,6 +57,54 @@
 <colAssociation fkAssociation="442C5846-98F7-0C04-9896-2D28CA91A2E1" referredColumn="325454A8-A1A1-94BA-3033-C391D3365B45"/>
 </associations>
 </Column>
+<Column name="since" id="76F47E0D-E961-EB25-E11F-2636A307568D">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-14 13:17:30 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="active" id="D578C28B-9B84-C82D-15CE-06126163B311">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-14 13:17:55 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="untill" id="C69F9A0B-ABE4-CCB9-5D46-161644D9CA2F">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-14 13:18:15 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Team budget_team_budget_id" id="A06A733C-5899-8BD9-8F7A-7FBA8CC05207">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-14 13:33:26 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7121642E-6422-D1F8-468D-6A1B371D87F4" referredColumn="7D873160-5F1B-F20C-FCC6-0E3E3798AB1C"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="0398698D-CE1D-4C26-C9F1-0CBC8ACD8F66" name="Teams_PK">
@@ -88,6 +136,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="A1311148-FD68-794C-5B10-A9B946ACA81B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55925D9C-CB6A-FA5D-1D35-508FAF6941D4" name="Teams_Team budget_FK">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-14 13:33:26 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A06A733C-5899-8BD9-8F7A-7FBA8CC05207"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

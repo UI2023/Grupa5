@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD2DE99D-00BB-508D-8C8E-A54B7B32D040" name="Races">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-14 13:39:35 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="race_id" id="A984F8AD-F7C6-7477-8A6D-00CFD646B4FD">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-14 13:40:15 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="race_type" id="2F02E021-011D-9DE7-3A42-CD2ACD42CD82">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-14 13:45:09 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Racetracks_racetrack_id" id="9E2FA461-3646-12DC-E47A-B7F85E76489B">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-14 13:53:19 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6CB99DDB-7778-92F2-B7AD-F3ECF7F2DAAC" referredColumn="B1574B27-5295-375B-B2B4-193D9932E290"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="161FC0C5-9B0C-25C5-3FC1-F3398873950B" name="Races_PK">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-14 13:52:49 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A984F8AD-F7C6-7477-8A6D-00CFD646B4FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36342CBD-83F1-8F1E-D7D2-CA18B081CB4A" name="Races_Racetracks_FK">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-14 13:53:19 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E2FA461-3646-12DC-E47A-B7F85E76489B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
