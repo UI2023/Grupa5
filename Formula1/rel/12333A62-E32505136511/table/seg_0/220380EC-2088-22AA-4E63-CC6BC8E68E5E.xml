@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="220380EC-2088-22AA-4E63-CC6BC8E68E5E" name="Engine manufacturers">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-23 08:41:48 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="engine_manf_id" id="528F86F9-F335-B9B6-FA96-C2C1BA103A41">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-23 08:42:50 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="1CCC2F9A-FBF1-C2D5-E865-77D5A039E698">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-23 08:42:50 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location" id="2D23246E-D4E7-FA54-5018-35E1075AAC10">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-23 08:44:59 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8BF29D86-96D1-7AFB-C512-02D0FE4ABC39" name="Engine manufacturers_PK">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-23 08:42:50 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="528F86F9-F335-B9B6-FA96-C2C1BA103A41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

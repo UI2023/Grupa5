@@ -18,6 +18,34 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Driver standings_driver_standing_id" id="B89CE18C-6C1D-196A-A028-E7E1249AB949">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-23 09:47:44 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="561C6F09-E30A-0373-BFC3-CBE209D6663D" referredColumn="1B6CAE88-6F93-C9C6-E936-7A99392A41AD"/>
+</associations>
+</Column>
+<Column name="Team Standings_team_standing_id" id="F6C8A779-055C-4857-0DDB-0F48C09FD20E">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-23 09:48:00 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C86FD2E-8390-6626-84D8-AD9CB5DC73FA" referredColumn="28F59C73-3B2D-01ED-3032-D339975B7162"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="05069815-8DFC-0058-EA23-A3DAE33F1B62" name="Season_PK">
@@ -29,6 +57,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="0FE99138-C889-0774-1F4A-F834F0C3DFE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BAB95B29-01B4-92A7-323D-597146F96386" name="Seasons_Driver standings_FK">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-23 09:47:44 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B89CE18C-6C1D-196A-A028-E7E1249AB949"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24047044-277E-C327-06A1-FBCEE316DC82" name="Seasons_Team Standings_FK">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-23 09:48:00 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6C8A779-055C-4857-0DDB-0F48C09FD20E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

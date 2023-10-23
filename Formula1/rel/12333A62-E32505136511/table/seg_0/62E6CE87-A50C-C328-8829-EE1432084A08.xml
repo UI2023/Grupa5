@@ -63,6 +63,45 @@
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="number_of_points" id="DC60839E-4D86-29BB-D732-D35EC75FBC81">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-23 09:46:15 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Driver standings_driver_standing_id" id="4EC4EFF9-1CAC-7E14-6D00-C810BE9B7EBD">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-23 09:47:14 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4665CC0-3B3B-C71B-419E-8BBD2D80EABE" referredColumn="1B6CAE88-6F93-C9C6-E936-7A99392A41AD"/>
+</associations>
+</Column>
+<Column name="Teams_team_id" id="837BC19F-BA10-D5FC-F042-5C42EA8A2B48">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-23 09:52:59 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7185ACF2-A438-023D-FF85-C6CC0C1A0538" referredColumn="BB01036E-79BA-621B-CAD1-D8B3B8B29674"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="5D41F29C-6CEC-90EB-1376-5C5093D54B3A" name="Drivers_PK">
@@ -74,6 +113,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="48ABC868-1209-1185-61D1-4D98E1AFA708"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0414856-D8AF-EAF0-34D8-E7CAA56247AD" name="Drivers_Driver standings_FK">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-23 09:47:14 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EC4EFF9-1CAC-7E14-6D00-C810BE9B7EBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA576F01-18BA-F7EB-FCB8-B4AB40C0319F" name="Drivers_Teams_FK">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-23 09:52:59 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="837BC19F-BA10-D5FC-F042-5C42EA8A2B48"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

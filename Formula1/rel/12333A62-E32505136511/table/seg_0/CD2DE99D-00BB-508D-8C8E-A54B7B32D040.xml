@@ -43,6 +43,20 @@
 <colAssociation fkAssociation="6CB99DDB-7778-92F2-B7AD-F3ECF7F2DAAC" referredColumn="B1574B27-5295-375B-B2B4-193D9932E290"/>
 </associations>
 </Column>
+<Column name="Race officials_race_official_id" id="79D5C68D-35FE-134C-340B-0843C7289DFF">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-23 09:52:35 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BEA648EF-FBD4-F8EE-3047-42CD65116110" referredColumn="3A015000-5C3D-DBB1-8DFB-49484AEC1A7A"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="161FC0C5-9B0C-25C5-3FC1-F3398873950B" name="Races_PK">
@@ -64,6 +78,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="9E2FA461-3646-12DC-E47A-B7F85E76489B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A683BFA-989D-D217-EA80-3991EF6453C6" name="Races_Race officials_FK">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-23 09:52:35 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79D5C68D-35FE-134C-340B-0843C7289DFF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
