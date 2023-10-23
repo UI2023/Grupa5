@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="561C6F09-E30A-0373-BFC3-CBE209D6663D" containerWithKeyObject="F8EC50BF-643A-56E7-F239-593B7774F212" localFKIndex="BAB95B29-01B4-92A7-323D-597146F96386" name="Seasons_Driver standings_FK">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-23 09:47:44 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<referredTableLongName>Driver standings</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F25A97B8-F192-13A6-B74D-C1BFDFCC28D4</referredTableID>
+<keyObject>27E6E6D0-B51E-CF74-9347-93906E68CCA9</keyObject>
+<referredKeyID>27E6E6D0-B51E-CF74-9347-93906E68CCA9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>driver_standing_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="86E1B561-C995-3681-0057-0749DA114525" containerWithKeyObject="514BFF98-6CA7-2F16-E777-36B4BCD30393" localFKIndex="B17EB05C-B5AD-9F11-97A9-F32CF333E231" name="Engines_Engine manufacturers_FK">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-23 08:46:59 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<referredTableLongName>Engine manufacturers</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>220380EC-2088-22AA-4E63-CC6BC8E68E5E</referredTableID>
+<keyObject>8BF29D86-96D1-7AFB-C512-02D0FE4ABC39</keyObject>
+<referredKeyID>8BF29D86-96D1-7AFB-C512-02D0FE4ABC39</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>engine_manf_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

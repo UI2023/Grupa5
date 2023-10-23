@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CF877976-6026-1DA8-DA88-9E804A5D0132" name="Calendars">
-<createdBy>mstef</createdBy>
-<createdTime>2023-10-14 13:47:03 UTC</createdTime>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07BAAAA6-A882-909B-EC5D-A68D40A2CBE7" name="Race officials">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-23 09:49:56 UTC</createdTime>
 <ownerDesignName>Formula1</ownerDesignName>
-<ordsAlias>table_16</ordsAlias>
+<ordsAlias>table_22</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="calendar_id" id="821E33A5-CC9B-D568-9814-EFF7BEAAC6D6">
-<createdBy>mstef</createdBy>
-<createdTime>2023-10-14 13:47:34 UTC</createdTime>
+<Column name="race_official_id" id="3A015000-5C3D-DBB1-8DFB-49484AEC1A7A">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-23 09:50:40 UTC</createdTime>
 <ownerDesignName>Formula1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,23 +18,23 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Seasons_season_id" id="4EFEC410-4CA6-7F60-69EF-93AA5144FE9E">
-<createdBy>mstef</createdBy>
-<createdTime>2023-10-14 13:51:09 UTC</createdTime>
+<Column name="Race rules_rule_id" id="4BFD2F76-2FFD-B287-BFB9-FBBD469A6AA8">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-23 09:52:18 UTC</createdTime>
 <ownerDesignName>Formula1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="E073F781-317E-CB1E-3EDF-280651BE6CC3" referredColumn="0FE99138-C889-0774-1F4A-F834F0C3DFE1"/>
+<colAssociation fkAssociation="D97AA3D7-BA36-C95B-50B0-9F05DE45B82A" referredColumn="70B024A9-C127-7E96-2CEC-4FF6924CC319"/>
 </associations>
 </Column>
-<Column name="Races_race_id" id="090BFBAE-BF3B-9853-08F2-BAD9C9530192">
-<createdBy>mstef</createdBy>
-<createdTime>2023-10-14 13:52:55 UTC</createdTime>
+<Column name="Races_race_id" id="B6BAEF37-31A0-68A1-3DF0-321E87C01AC4">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-23 09:52:29 UTC</createdTime>
 <ownerDesignName>Formula1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -43,40 +43,40 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="FC5DE2B2-83F8-A0DF-8DB1-A05397F3EF6E" referredColumn="A984F8AD-F7C6-7477-8A6D-00CFD646B4FD"/>
+<colAssociation fkAssociation="6F6D4BF2-D573-3E51-2867-A27B48C3C96D" referredColumn="A984F8AD-F7C6-7477-8A6D-00CFD646B4FD"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="823C976D-20FF-2E12-4AC1-CDB05D3F6795" name="Race Calendar_PK">
-<createdBy>mstef</createdBy>
-<createdTime>2023-10-14 13:47:34 UTC</createdTime>
+<ind_PK_UK id="4C5618CE-9898-BE90-0C9B-3D3787126908" name="Race officials_PK">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-23 09:50:40 UTC</createdTime>
 <ownerDesignName>Formula1</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="821E33A5-CC9B-D568-9814-EFF7BEAAC6D6"/>
+<colUsage columnID="3A015000-5C3D-DBB1-8DFB-49484AEC1A7A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B6E29F1B-9C20-3828-4ED6-6C1FE9C6424C" name="Race Calendars_Seasons_FK">
-<createdBy>mstef</createdBy>
-<createdTime>2023-10-14 13:51:09 UTC</createdTime>
+<ind_PK_UK id="7080F393-9EAD-2FAC-CED3-660E83A47CEB" name="Race officials_Race rules_FK">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-23 09:52:18 UTC</createdTime>
 <ownerDesignName>Formula1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="4EFEC410-4CA6-7F60-69EF-93AA5144FE9E"/>
+<colUsage columnID="4BFD2F76-2FFD-B287-BFB9-FBBD469A6AA8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="DF40DB87-653B-DDE0-663A-410717EAB8E1" name="Race Calendars_Races_FK">
-<createdBy>mstef</createdBy>
-<createdTime>2023-10-14 13:52:55 UTC</createdTime>
+<ind_PK_UK id="9509FD45-C28C-D514-458D-7F671DE1CE56" name="Race officials_Races_FK">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-23 09:52:29 UTC</createdTime>
 <ownerDesignName>Formula1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="090BFBAE-BF3B-9853-08F2-BAD9C9530192"/>
+<colUsage columnID="B6BAEF37-31A0-68A1-3DF0-321E87C01AC4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

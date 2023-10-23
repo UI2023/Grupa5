@@ -105,6 +105,45 @@
 <colAssociation fkAssociation="7121642E-6422-D1F8-468D-6A1B371D87F4" referredColumn="7D873160-5F1B-F20C-FCC6-0E3E3798AB1C"/>
 </associations>
 </Column>
+<Column name="Engine manufacturers_engine_manf_id" id="44BF86DE-02EF-CD2A-C67C-77535E9D2704">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-23 08:48:34 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6CF6404F-2D84-3D75-C57F-0CB81DD6ADC9" referredColumn="528F86F9-F335-B9B6-FA96-C2C1BA103A41"/>
+</associations>
+</Column>
+<Column name="Team Standings_team_standing_id" id="42274329-AAAA-80E1-CED2-8F08C5606EFF">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-23 09:39:36 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2AEB1533-A661-A124-94BF-7CAA99064E18" referredColumn="28F59C73-3B2D-01ED-3032-D339975B7162"/>
+</associations>
+</Column>
+<Column name="points" id="F890254A-1BEF-5B75-B1BE-AE3752BE9C22">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-23 09:46:31 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="0398698D-CE1D-4C26-C9F1-0CBC8ACD8F66" name="Teams_PK">
@@ -146,6 +185,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="A06A733C-5899-8BD9-8F7A-7FBA8CC05207"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97D02173-A240-3001-A633-80F20839E403" name="Teams_Engine manufacturers_FK">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-23 08:48:34 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44BF86DE-02EF-CD2A-C67C-77535E9D2704"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C242630-8C30-287C-607D-B6162206F0C9" name="Teams_Team Standings_FK">
+<createdBy>Stefan</createdBy>
+<createdTime>2023-10-23 09:39:36 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42274329-AAAA-80E1-CED2-8F08C5606EFF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
