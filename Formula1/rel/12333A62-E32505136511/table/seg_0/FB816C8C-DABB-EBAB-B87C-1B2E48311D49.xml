@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="220380EC-2088-22AA-4E63-CC6BC8E68E5E" name="Engine manufacturers">
-<createdBy>Stefan</createdBy>
-<createdTime>2023-10-23 08:41:48 UTC</createdTime>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB816C8C-DABB-EBAB-B87C-1B2E48311D49" name="ControlElectronics">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-28 16:17:22 UTC</createdTime>
 <ownerDesignName>Formula1</ownerDesignName>
-<ordsAlias>table_15</ordsAlias>
+<ordsAlias>table_27</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="engine_manf_id" id="528F86F9-F335-B9B6-FA96-C2C1BA103A41">
-<createdBy>Stefan</createdBy>
-<createdTime>2023-10-23 08:42:50 UTC</createdTime>
+<Column name="controlelectronics_id" id="517697C3-A968-86CF-5B64-5285253F8C04">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-28 16:18:25 UTC</createdTime>
 <ownerDesignName>Formula1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,31 +18,31 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="name" id="1CCC2F9A-FBF1-C2D5-E865-77D5A039E698">
-<createdBy>Stefan</createdBy>
-<createdTime>2023-10-23 08:42:50 UTC</createdTime>
-<ownerDesignName>Formula1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="location" id="2D23246E-D4E7-FA54-5018-35E1075AAC10">
-<createdBy>Stefan</createdBy>
-<createdTime>2023-10-23 08:44:59 UTC</createdTime>
-<ownerDesignName>Formula1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Cars_car_id" id="31816D91-9675-A5F5-2B24-48269447F567">
+<Column name="expected_lifespan" id="129E36CE-910D-BF6E-7364-620CE3C4FD80">
 <createdBy>mstef</createdBy>
-<createdTime>2023-10-28 16:34:56 UTC</createdTime>
+<createdTime>2023-10-28 16:18:25 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="overall_wear" id="08958D4B-5B4B-6D17-541C-969FF3E7E5B7">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-28 16:18:25 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Spare Parts_spare_part_id" id="F79DFC7F-D443-49D5-2016-3912075B5F7C">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-28 16:18:38 UTC</createdTime>
 <ownerDesignName>Formula1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -51,30 +51,30 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="235445C9-EECB-D977-B402-7CE07107850A" referredColumn="42549CBB-0743-8AB3-1733-3EF491A37F3B"/>
+<colAssociation fkAssociation="AF60DC75-3599-8BF7-BB2C-CECA2C1FCB95" referredColumn="880F4AC5-39A9-B1E9-B8A7-CA0F219C8B38"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="8BF29D86-96D1-7AFB-C512-02D0FE4ABC39" name="Engine manufacturers_PK">
-<createdBy>Stefan</createdBy>
-<createdTime>2023-10-23 08:42:50 UTC</createdTime>
+<ind_PK_UK id="EF825EA6-8DA4-80F8-25E5-BF1F6AFED693" name="ControlElectronics_PK">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-28 16:18:25 UTC</createdTime>
 <ownerDesignName>Formula1</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="528F86F9-F335-B9B6-FA96-C2C1BA103A41"/>
+<colUsage columnID="517697C3-A968-86CF-5B64-5285253F8C04"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FEB3E83D-9660-50FF-7614-D5F4235EA28D" name="Engine manufacturers_Cars_FK">
+<ind_PK_UK id="80607284-D0F1-B09E-FEC3-D937129FEE15" name="ControlElectronics_Spare Parts_FK">
 <createdBy>mstef</createdBy>
-<createdTime>2023-10-28 16:34:56 UTC</createdTime>
+<createdTime>2023-10-28 16:18:38 UTC</createdTime>
 <ownerDesignName>Formula1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="31816D91-9675-A5F5-2B24-48269447F567"/>
+<colUsage columnID="F79DFC7F-D443-49D5-2016-3912075B5F7C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -18,9 +18,23 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Races_race_id" id="F8124CAE-5B80-2A5D-8C27-989A9C03DC5A">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-28 16:20:24 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="48A3DFE5-C796-2B4C-DE00-969D6C324F35" referredColumn="A984F8AD-F7C6-7477-8A6D-00CFD646B4FD"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="27E6E6D0-B51E-CF74-9347-93906E68CCA9" name="Driver standings_PK">
+<ind_PK_UK id="27E6E6D0-B51E-CF74-9347-93906E68CCA9" name="Driver standings_PKv1">
 <createdBy>Stefan</createdBy>
 <createdTime>2023-10-23 09:45:58 UTC</createdTime>
 <ownerDesignName>Formula1</ownerDesignName>
@@ -29,6 +43,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="1B6CAE88-6F93-C9C6-E936-7A99392A41AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E14388F-4E4D-4C51-6CFA-497625B83C00" name="Driver standings_Races_FK">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-28 16:20:24 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8124CAE-5B80-2A5D-8C27-989A9C03DC5A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

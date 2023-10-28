@@ -65,6 +65,17 @@
 <colAssociation fkAssociation="FDF833C1-9750-828B-5278-0CD658F5FD4C" referredColumn="BB01036E-79BA-621B-CAD1-D8B3B8B29674"/>
 </associations>
 </Column>
+<Column name="Spare Parts_spare_part_id" id="5FF7DE58-5F43-B4BA-3DC5-1B2F0992F59F">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-28 16:07:16 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="1FF8D185-26C1-3CE1-892A-7F24237E8E91" name="Spare Parts_PK">

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="89B3B396-CCE4-F19B-5B3B-7F02E6B9E588" containerWithKeyObject="12282FEC-9E80-AE02-B6B2-2D15896B40C4" localFKIndex="D38B3EFC-7F2A-BCBD-3DB3-88828447AE10" name="TurboChargers_Spare Parts_FK">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-28 16:17:02 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<referredTableLongName>Spare Parts</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2CEECE77-EDDD-11E1-55FF-69B5545D5C81</referredTableID>
+<keyObject>1FF8D185-26C1-3CE1-892A-7F24237E8E91</keyObject>
+<referredKeyID>1FF8D185-26C1-3CE1-892A-7F24237E8E91</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>spare_part_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

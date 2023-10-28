@@ -40,20 +40,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Races_race_id" id="87E907CE-14F1-6BFB-3D18-45815F47AC6D">
-<createdBy>mstef</createdBy>
-<createdTime>2023-10-14 13:53:59 UTC</createdTime>
-<ownerDesignName>Formula1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="6C13D173-7397-4EB3-5596-B1AFDFF88C1D" referredColumn="A984F8AD-F7C6-7477-8A6D-00CFD646B4FD"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="E3F3CA00-671F-F676-3C9D-FD18ED1BA187" name="Location_PK">
@@ -65,16 +51,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="3DE324B0-C0EB-091E-4461-E1CCDECBE24C"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="1020DA80-1425-206D-2114-8D57C868FF1E" name="Location_Races_FK">
-<createdBy>mstef</createdBy>
-<createdTime>2023-10-14 13:53:59 UTC</createdTime>
-<ownerDesignName>Formula1</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="87E907CE-14F1-6BFB-3D18-45815F47AC6D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

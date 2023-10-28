@@ -43,9 +43,9 @@
 <colAssociation fkAssociation="6CB99DDB-7778-92F2-B7AD-F3ECF7F2DAAC" referredColumn="B1574B27-5295-375B-B2B4-193D9932E290"/>
 </associations>
 </Column>
-<Column name="Race officials_race_official_id" id="79D5C68D-35FE-134C-340B-0843C7289DFF">
-<createdBy>Stefan</createdBy>
-<createdTime>2023-10-23 09:52:35 UTC</createdTime>
+<Column name="Location_location_id" id="F8122901-E57E-C5F9-C8B7-E01C1994EDCA">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-28 16:21:49 UTC</createdTime>
 <ownerDesignName>Formula1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -54,8 +54,19 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="BEA648EF-FBD4-F8EE-3047-42CD65116110" referredColumn="3A015000-5C3D-DBB1-8DFB-49484AEC1A7A"/>
+<colAssociation fkAssociation="926DE314-5B1E-D9D4-97F0-4958D2EFFE84" referredColumn="3DE324B0-C0EB-091E-4461-E1CCDECBE24C"/>
 </associations>
+</Column>
+<Column name="queue_number" id="5134E521-FA3E-F34A-37DF-E6EF8657B1F5">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-28 16:23:44 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -80,14 +91,14 @@
 <colUsage columnID="9E2FA461-3646-12DC-E47A-B7F85E76489B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3A683BFA-989D-D217-EA80-3991EF6453C6" name="Races_Race officials_FK">
-<createdBy>Stefan</createdBy>
-<createdTime>2023-10-23 09:52:35 UTC</createdTime>
+<ind_PK_UK id="5CC893A0-C3B7-3FAD-A847-CF98581BEE01" name="Races_Location_FK">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-28 16:21:49 UTC</createdTime>
 <ownerDesignName>Formula1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="79D5C68D-35FE-134C-340B-0843C7289DFF"/>
+<colUsage columnID="F8122901-E57E-C5F9-C8B7-E01C1994EDCA"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

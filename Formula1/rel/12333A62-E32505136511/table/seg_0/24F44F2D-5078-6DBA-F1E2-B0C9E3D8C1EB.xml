@@ -29,20 +29,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Drivers_driver_id" id="8EB93108-2914-B3D8-AF6D-D3F3C69B265A">
-<createdBy>Stefan</createdBy>
-<createdTime>2023-10-06 13:13:20 UTC</createdTime>
-<ownerDesignName>Formula1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="6F11C48F-A717-016A-F927-C02C6A590A7C" referredColumn="48ABC868-1209-1185-61D1-4D98E1AFA708"/>
-</associations>
-</Column>
 <Column name="Formula_forumla_id" id="A1311148-FD68-794C-5B10-A9B946ACA81B">
 <createdBy>Stefan</createdBy>
 <createdTime>2023-10-06 13:18:29 UTC</createdTime>
@@ -105,20 +91,6 @@
 <colAssociation fkAssociation="7121642E-6422-D1F8-468D-6A1B371D87F4" referredColumn="7D873160-5F1B-F20C-FCC6-0E3E3798AB1C"/>
 </associations>
 </Column>
-<Column name="Engine manufacturers_engine_manf_id" id="44BF86DE-02EF-CD2A-C67C-77535E9D2704">
-<createdBy>Stefan</createdBy>
-<createdTime>2023-10-23 08:48:34 UTC</createdTime>
-<ownerDesignName>Formula1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="6CF6404F-2D84-3D75-C57F-0CB81DD6ADC9" referredColumn="528F86F9-F335-B9B6-FA96-C2C1BA103A41"/>
-</associations>
-</Column>
 <Column name="Team Standings_team_standing_id" id="42274329-AAAA-80E1-CED2-8F08C5606EFF">
 <createdBy>Stefan</createdBy>
 <createdTime>2023-10-23 09:39:36 UTC</createdTime>
@@ -157,16 +129,6 @@
 <colUsage columnID="BB01036E-79BA-621B-CAD1-D8B3B8B29674"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="659C72B1-F121-0CB4-9451-240F8861010C" name="driver_id">
-<createdBy>Stefan</createdBy>
-<createdTime>2023-10-06 13:13:20 UTC</createdTime>
-<ownerDesignName>Formula1</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="8EB93108-2914-B3D8-AF6D-D3F3C69B265A"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="60B05CC3-F0D5-46F5-C241-2706B91FE2E0" name="formula_idv1">
 <createdBy>Stefan</createdBy>
 <createdTime>2023-10-06 13:18:29 UTC</createdTime>
@@ -185,16 +147,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="A06A733C-5899-8BD9-8F7A-7FBA8CC05207"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="97D02173-A240-3001-A633-80F20839E403" name="Teams_Engine manufacturers_FK">
-<createdBy>Stefan</createdBy>
-<createdTime>2023-10-23 08:48:34 UTC</createdTime>
-<ownerDesignName>Formula1</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="44BF86DE-02EF-CD2A-C67C-77535E9D2704"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="4C242630-8C30-287C-607D-B6162206F0C9" name="Teams_Team Standings_FK">

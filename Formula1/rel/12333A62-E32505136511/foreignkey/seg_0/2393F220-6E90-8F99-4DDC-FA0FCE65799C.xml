@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2393F220-6E90-8F99-4DDC-FA0FCE65799C" containerWithKeyObject="8D324E25-1A32-01DA-46DC-AC56EEA9A67E" localFKIndex="C87784D9-6B73-FCFD-AE69-45A9A83A8834" name="MGU-Ks_Spare Parts_FK">
+<createdBy>mstef</createdBy>
+<createdTime>2023-10-28 16:12:17 UTC</createdTime>
+<ownerDesignName>Formula1</ownerDesignName>
+<referredTableLongName>Spare Parts</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2CEECE77-EDDD-11E1-55FF-69B5545D5C81</referredTableID>
+<keyObject>1FF8D185-26C1-3CE1-892A-7F24237E8E91</keyObject>
+<referredKeyID>1FF8D185-26C1-3CE1-892A-7F24237E8E91</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>spare_part_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
